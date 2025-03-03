@@ -4,11 +4,17 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    /* font-family: "harabara", sans-serif; */
 }
 
 img,
 svg {
     display: block;
+}
+
+@font-face {
+    font-family: harabara ;
+    src: url("../fonts/harabara.otf") format("opentype");
 }
 
 :root {
@@ -34,10 +40,13 @@ svg {
 
 
     /* TODO */
-    /* CHANGE BACKGROUDN COLOR */
+    /* CHANGE BACKGROUND COLOR */
 
     --clr-primary-bg: rgb(255, 222, 89);
     --clr-secondary-bg: rgb(0, 74, 173);
+    --clr-third-bg: rgb(255, 255, 255);
+    --clr-fourth-bg: rgb(0, 0, 0);
+
 
     --clr-accent-1: 0, 100%, 67%;
     --clr-accent-2: 39, 100%, 56%;
@@ -55,12 +64,15 @@ svg {
     --fw-bold: 700;
     --fw-black: 800;
 
+    --fs-300: 1rem;
     --fs-400: 1.125rem;
     --fs-500: 1.25rem;
     --fs-600: 1.5rem;
     --fs-700: 1.75rem;
     --fs-800: 2.5rem;
+    --fs-850: 3rem;
     --fs-900: 3.5rem;
+    --fs-1000: 4.5rem;
 
     --fc-background: rgb(0, 0, 0);
     --fc-default: rgb(147, 147, 147);
