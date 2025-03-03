@@ -113,12 +113,12 @@ body {
         }
     }
 
-    .our-story-div,
-    .middle-div {
+    .our-story-div {
         background-color: rgb(201, 193, 151);
     }
 
-    .about-us-div {
+    .about-us-div,
+    .middle-div {
         background-color: rgb(234, 226, 183);
     }
 
