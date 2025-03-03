@@ -6,8 +6,7 @@ header {
     background-color: var(--clr-primary-bg);
     height:9vh;
     width: 100%;
-    border-top: 5px solid var(--clr-secondary-bg);
-    border-bottom: 5px solid var(--clr-secondary-bg);
+    border-bottom: 2px solid var(--clr-fourth-bg);
 
     nav {
         display: flex;
@@ -26,15 +25,17 @@ header {
             }
 
             h1 {
+
                 letter-spacing: .5rem;
                 font-size: var(--fs-800);
-                color: var(--fc-secondary);
+                font-family: "harabara", sans-serif;
+                color: var(--clr-fourth-bg);
             }
 
             a {
                 text-decoration: none;
-                color: var(--fc-secondary);
-                font-size: var(--fs-600);
+                color: var(--clr-fourth-bg);
+                font-size: var(--fs-400);
                 font-weight: var(--fw-regular);
             }
         }
